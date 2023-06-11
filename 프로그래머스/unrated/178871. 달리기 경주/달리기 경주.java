@@ -15,7 +15,6 @@ class Solution {
             map.put(players[rank-1],rank); //poe 2-->3
             players[rank]=players[rank-1]; //kai <--poe
             players[rank-1]=ca;       //poe<--kai   
-           // System.out.println("map "+map);
         }
         return players;
     }
